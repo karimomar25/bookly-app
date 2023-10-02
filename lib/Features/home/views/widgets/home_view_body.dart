@@ -1,8 +1,6 @@
 import 'package:bookly_app/Features/home/views/widgets/best_seller_item_view.dart';
 import 'package:bookly_app/Features/home/views/widgets/custom_appbar.dart';
 import 'package:bookly_app/Features/home/views/widgets/featured_books_listview.dart';
-import 'package:bookly_app/constants.dart';
-import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 
 import 'package:flutter/material.dart';
@@ -35,3 +33,4 @@ class HomeViewBody extends StatelessWidget {
     );
   }
 }
+
