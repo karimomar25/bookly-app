@@ -8,7 +8,9 @@ abstract class Styles {
 
   // ignore: constant_identifier_names
   static const TextStyle20 = TextStyle(
-      fontSize: 20, fontWeight: FontWeight.normal, fontFamily: kGtSectraFine);
+    fontSize: 20,
+    fontWeight: FontWeight.normal,
+  );
 
   // ignore: constant_identifier_names
   static const TextStyle14 =
