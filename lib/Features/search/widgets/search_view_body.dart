@@ -14,14 +14,14 @@ class SearchViewBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomTextField(),
-          const SizedBox(
+          SizedBox(
             height: 16,
           ),
           Text(
             "Search Result",
             style: Styles.TextStyle18,
           ),
-          const SizedBox(
+          SizedBox(
             height: 16,
           ),
           Expanded(child: SearchResultListView())
